@@ -16,11 +16,22 @@ PDVarFilter tool is tested on following platform:
 
 ### Usage
 1) PhenoVarFilter:
-For snp:
-```
-#SCRIPT WORKING_DIR_PATH PEDIGREE_NAME TOTAL_BAP_SAMPLES TOTAL_MAP_SAMPLES TOTAL_NAP_SAMPLES
-/mnt/b2/home4/arc/rm975/softwares/PDVarFilter/PhenoVarFilter/snp/PhenoVarFilter_snp.sh /mnt/b2/home4/arc/rm975/softwares/PDVarFilter/PhenoVarFilter/snp GF18 3 2 2
 
+Input files: (Please note that input files and edit in samples details is mendetory before running the tool)
+1. Paste all samples annovar annotated text file in the folder 'input_annovar_annotated_txt_files' for snp and indel.
+
+2. Edit files in the folder 'input_samples_details' for snp and indel.
+File 'input_all_cases.txt' - Add tab delimited information of pedigree name, sample name, and full path of annotated annovar text files of cases in pedigree.
+File 'input_bap.txt' - Add BAP samples name in list.
+File 'input_map.txt' - Add MAP samples name in list.
+File 'input_nap.txt' - Add NAP samples name in list.
+File 'input_control.txt' - Add control samples name in list.
+
+Output file: 
+GF18.snp/indel.PhenoVarFilter.results - This output file contains the filtered snp/indel variants in BAP, MAP and NAP cateogory in pedigree.
+
+For SNP:
+```
 usage: PhenoVarFilter_snp.sh WORKING_DIRECTORY_PATH PEDIGREE_NAME TOTAL_BAP_SAMPLES TOTAL_MAP_SAMPLES TOTAL_NAP_SAMPLES
 
 arguments:
@@ -30,8 +41,30 @@ arguments:
   TOTAL_MAP_SAMPLES        Total number of MAP individuals in pedigree
   TOTAL_NAP_SAMPLES        Total number of NAP individuals in pedigree
 
-1) DiagnoVarFilter:
+Example command: 
+cd /usr/ravi/PDVarFilter/PhenoVarFilter/snp
+/usr/ravi/PDVarFilter/PhenoVarFilter/snp/PhenoVarFilter_snp.sh /usr/ravi/PDVarFilter/PhenoVarFilter/snp GF18 3 2 2
+
 ```
+For INDEL:
+```
+usage: PhenoVarFilter_indel.sh WORKING_DIRECTORY_PATH PEDIGREE_NAME TOTAL_BAP_SAMPLES TOTAL_MAP_SAMPLES TOTAL_NAP_SAMPLES
+
+arguments:
+  WORKING_DIRECTORY_PATH        Path to the working directory where files are stored.
+  PEDIGREE_NAME        Pedigree name of samples.
+  TOTAL_BAP_SAMPLES        Total number of BAP individuals in pedigree
+  TOTAL_MAP_SAMPLES        Total number of MAP individuals in pedigree
+  TOTAL_NAP_SAMPLES        Total number of NAP individuals in pedigree
+
+Example command: 
+cd /usr/ravi/PDVarFilter/PhenoVarFilter/indel
+/usr/ravi/PDVarFilter/PhenoVarFilter/indel/PhenoVarFilter_indel.sh /usr/ravi/PDVarFilter/PhenoVarFilter/indel GF18 3 2 2
+
+```
+
+1) DiagnoVarFilter:
+
 usage: varprio-0.4.py [-h] -T {snp,indel} -I INPUTFILEINFO -PC
 	                POPULATIONCONTROL -AFC ALLFAMILYCONTROL -O OUTDIR
 
