@@ -1,0 +1,6 @@
+GF18	B01	/mnt/b2/home4/arc/rm975/softwares/PDVarFilter/PhenoVarFilter/indel/input_annovar_annotated_txt_files/B01.indel.txt
+GF18	D02	/mnt/b2/home4/arc/rm975/softwares/PDVarFilter/PhenoVarFilter/indel/input_annovar_annotated_txt_files/D02.indel.txt
+GF18	C03	/mnt/b2/home4/arc/rm975/softwares/PDVarFilter/PhenoVarFilter/indel/input_annovar_annotated_txt_files/C03.indel.txt
+GF18	G02	/mnt/b2/home4/arc/rm975/softwares/PDVarFilter/PhenoVarFilter/indel/input_annovar_annotated_txt_files/G02.indel.txt
+GF18	C02	/mnt/b2/home4/arc/rm975/softwares/PDVarFilter/PhenoVarFilter/indel/input_annovar_annotated_txt_files/C02.indel.txt
+GF18	G01	/mnt/b2/home4/arc/rm975/softwares/PDVarFilter/PhenoVarFilter/indel/input_annovar_annotated_txt_files/G01.indel.txt

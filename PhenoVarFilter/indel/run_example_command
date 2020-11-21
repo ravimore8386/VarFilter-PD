@@ -1,0 +1,3 @@
+# Please add follwoing aurgument information seperated by space after script.
+#SCRIPT WORKING_DIR_PATH PEDIGREE_NAME TOTAL_CASES_SAMPLES
+/mnt/b2/home4/arc/rm975/softwares/PDVarFilter/indel/PhenoVarFilter_indel.sh /mnt/b2/home4/arc/rm975/softwares/PDVarFilter/PhenoVarFilter/indel GF18 3 2 2
