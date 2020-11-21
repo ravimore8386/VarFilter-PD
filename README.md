@@ -7,5 +7,6 @@ This tool has two main modules and variants filtered further based on Phenotype 
 1) PhenoVarFilter
 2) DiagnoVarFilter
 
-PDVarFilter is developed as part of the Multiplex Autism Family study at ARC, University of Cambridge, UK. Please read the README file before using this tool.
+PDVarFilter is developed as part of the Multiplex Autism Families study at ARC, University of Cambridge, UK. Please read the README file before using this tool.
 
+###Requirements
