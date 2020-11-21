@@ -1,0 +1,3 @@
+# Please add follwoing aurgument information seperated by space after script.
+#SCRIPT WORKING_DIR_PATH PEDIGREE_NAME TOTAL_CASES_SAMPLES
+/mnt/b2/home4/arc/rm975/softwares/PDVarFilter/DiagnoVarFilter/snp/DiagnoVarFilter_snp.sh /mnt/b2/home4/arc/rm975/softwares/PDVarFilter/DiagnoVarFilter/snp GF18 3
