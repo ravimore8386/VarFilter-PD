@@ -10,3 +10,13 @@ This tool has two main modules and variants filtered further based on Phenotype 
 PDVarFilter is developed as part of the Multiplex Autism Families study at ARC, University of Cambridge, UK. Please read the README file before using this tool.
 
 ### Requirements
+PDVarFilter tool is developed and tested on following platform, which is requirement to run the tool.
+OS Ubuntu v16.04.5 LTS
+Perl 5, version 22, subversion 1 (v5.22.1)
+
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
