@@ -1,0 +1,6 @@
+GF18	B01	/mnt/b2/home4/arc/rm975/softwares/PhenoVarFilter/snp/het/input_annotated_txt_files/B01.snp.txt
+GF18	D02	/mnt/b2/home4/arc/rm975/softwares/PhenoVarFilter/snp/het/input_annotated_txt_files/D02.snp.txt
+GF18	C03	/mnt/b2/home4/arc/rm975/softwares/PhenoVarFilter/snp/het/input_annotated_txt_files/C03.snp.txt
+GF18	G02	/mnt/b2/home4/arc/rm975/softwares/PhenoVarFilter/snp/het/input_annotated_txt_files/G02.snp.txt
+GF18	C02	/mnt/b2/home4/arc/rm975/softwares/PhenoVarFilter/snp/het/input_annotated_txt_files/C02.snp.txt
+GF18	G01	/mnt/b2/home4/arc/rm975/softwares/PhenoVarFilter/snp/het/input_annotated_txt_files/G01.snp.txt
