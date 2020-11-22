@@ -13,6 +13,7 @@ PDVarFilter is developed as part of the Multiplex Autism Families study at ARC, 
 PDVarFilter tool is tested on the following platform:
 1. OS Ubuntu v16.04.5 LTS
 2. Perl 5, version 22, subversion 1 (v5.22.1)
+3. ANNOVAR tab-delimted annotated output file (Wang K, Li M, Hakonarson H. ANNOVAR: Functional annotation of genetic variants from next-generation sequencing data, Nucleic Acids Research, 38:e164, 2010).
 
 ### Usage
 1) PhenoVarFilter:
@@ -20,6 +21,7 @@ PDVarFilter tool is tested on the following platform:
 Input files for SNP and INDEL: (Please note that input files and edit in samples details are mandatory before running the tool)
 
 1. Paste all samples annovar annotated text file in the folder 'input_annovar_annotated_txt_files' for snp and indel.
+(Please check the coloum order carefully in your sample annotated file before run the analysis, it should be in same order which is given in example text file.)
 
 2. Edit files in the folder 'input_samples_details' for snp and indel.
 
