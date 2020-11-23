@@ -104,6 +104,9 @@ Example command:
 cd /usr/ravi/PDVarFilter/DiagnoVarFilter/indel
 /usr/ravi/PDVarFilter/DiagnoVarFilter/indel/DiagnoVarFilter_indel.sh /usr/ravi/PDVarFilter/DiagnoVarFilter/indel GF18 3
 ```
+## Citation
+Manuscript is under process.
+
 ## Contact
 For technical queries, please write to Dr. Ravi Prabhakar More on email rm975@medschl.cam.ac.uk, ravipmore7@gmail.com
 
