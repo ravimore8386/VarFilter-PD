@@ -1,5 +1,5 @@
 # VarFilter-PD Version 0.1
-## VARiant FILTERing using Phenotype and Diagnosis information in WGS/WES sequencing data
+## VARiant FILTERing using Phenotype and Diagnosis information in pedigree WGS/WES sequencing data
 ### Introduction
 #### VarFilter-PD is VARiant FILTERing tools based on the Phenotype and Diagnosis information in WGS/WES sequencing data, which filters SNP/INDEL variants based on its presence in cases of pedigree. This tool filters SNP/INDEL variants by referring Annovar tool text file based on three main criteria : 1) Damaging variants based on in silico predictions algorithms (SIFT or PolyPhene) for SNP and Frameshift/Nonfremeshift/Stopgain/Stoploss variants for INDEL. 1) Rare variants (<=1%) in the non-Finnish population (NFE) as per GnomAD database, and 3) Variants absent in controls.
 
