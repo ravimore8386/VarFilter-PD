@@ -105,14 +105,7 @@ cd /usr/ravi/VarFilter-PD/DiagnoVarFilter/indel
 /usr/ravi/VarFilter-PD/DiagnoVarFilter/indel/DiagnoVarFilter_indel.sh /usr/ravi/VarFilter-PD/DiagnoVarFilter/indel GF18 3
 ```
 ## Citation
-Manuscript is in preparation.
+More, R.P., Warrier, V., Brunel, H. et al. Identifying rare genetic variants in 21 highly multiplex autism families: the role of diagnosis and autistic traits. Mol Psychiatry (2023). https://doi.org/10.1038/s41380-022-01938-4
 
 ## Contact
 For technical queries, please write to Dr. Ravi Prabhakar More on email rm975@medschl.cam.ac.uk, ravipmore7@gmail.com
-
-## Contributors
-Developed by: Dr. Ravi Prabhakar More
-
-Conceptualized by: Dr. Ravi Prabhakar More (ARC, University of Cambridge), Dr. Varun Warrier (ARC, University of Cambridge), Charles Bradshaw (The Gurdon Institute, University of Cambridge), Prof. Simon Baron-Cohen (ARC, University of Cambridge)
-https://www.autismresearchcentre.com/
-
